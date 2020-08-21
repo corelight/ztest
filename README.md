@@ -104,6 +104,12 @@ Special methods for interfacing with the ZTest framework are:
 ```
 * `ZTest::test_exit()`: Exits Zeek, setting the exit code to 0 if no tests failed and 1 if any test failed. This can be used to manually exit as opposed to enabling the auto exit hook with `ZTest::hook_exit()`
 
+## Integrating with BTest
+ZTest is designed to work with BTest, not replace it. There are a couple of strategies for using ZTest in BTest:
+
+1. Write your unit tests and run them from BTest. Set the STDOUT benchmark file to be the output of the Unit Tests with all of them passing. If anything changes (such as a test failing) the output from ZTest will be different from the benchmark and BTest will show the test as failing. The downside to this approach is that if you add new tests you will have to update the benchmark.
+1. Write your unit tests and run them from BTest, but call `ZTest::suppress_success_output()` at some point in your test file. This will tell ZTest to only output errors to STDOUT. Set your BTest benchmark for STDOUT to be empty. If any test fails, it will have output and your BTest will fail because the output will not match the empty STDOUT benchmark. This is preferred since you can add any new unit tests and not have to update the benchmark, as long as they all pass.
+
 ## Testing an Event-Driven System
 Zeek is by its nature very event-driven. This can seemingly make unit testing much harder to do since a lot of work is done inside of event handlers. For example, given the following code:
 
