@@ -1,0 +1,5 @@
+[package]
+description = A Zeek Unit Testing Framework
+tags = library, unit-testing, testing
+script_dir = scripts
+credits = Ryan Victory <ryan.victory@corelight.com>

@@ -1,0 +1,2 @@
+# ZTest Tests
+This directory contains the unit tests and other tests for the Ztest framework (the tests for the tests). Unfortunately there isn't a great way to invoke external commands using Zeek and capture their output, so the tests are written in Ruby for ease of development. To run the entirety of test suite, run `ruby test_ztest.rb`
