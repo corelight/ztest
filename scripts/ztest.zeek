@@ -81,6 +81,15 @@ function print_failure(str: string) {
         print(str);
     }
 }
+
+function print_failure_backtrace() {
+@if (Version::at_least("3.2.0"))
+    if (should_output_failures) {
+        print("Backtrace: ");
+        print_backtrace(T);
+    }
+@endif
+}
     
 ## Retrieves all test results so far. The output format is a table of the format:
 ## "suite_name" : {
@@ -127,6 +136,7 @@ function mark_result(succeeded: bool, expected_string: string, actual_string: st
         print_failure("Assert Failed: " + message + " (" + current_test_suite + "/" + current_test + ")");
         print_failure("Expected: " + expected_string);
         print_failure("Actual: " + actual_string);
+        print_failure_backtrace();
         results[current_test]$failed += 1;
     }
 

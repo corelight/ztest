@@ -1,4 +1,4 @@
-@load ztest.zeek
+@load ./scripts
 
 ZTest::suppress_success_output();
 
