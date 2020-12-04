@@ -2,7 +2,7 @@
 ZTest - Zeek Unit Testing. Provides a framework to write unit tests for Zeek scripts.
 
 ## Background and Example
-ZTest is intended to be used alongside of your Zeek scripts to make your unit testing easy, fast, and more idiomatic. It an be combined with BTest as by default ZTest provides a rich output that clearly annotates test failures. This makes it easy to identify what failed in a BTest diff, for example. The basic structure of a ZTest file is as follows:
+ZTest is intended to be used alongside of your Zeek scripts to make your unit testing easy, fast, and more idiomatic. It can be combined with BTest as by default ZTest provides a rich output that clearly annotates test failures. This makes it easy to identify what failed in a BTest diff, for example. The basic structure of a ZTest file is as follows:
 
 ```zeek
 @load ztest.zeek
