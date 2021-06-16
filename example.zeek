@@ -1,4 +1,4 @@
-@load ./scripts
+@load ztest
 
 ZTest::suppress_success_output();
 
