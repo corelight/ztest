@@ -4,9 +4,9 @@ Assert Failed: 1 didn't equal 2 (Suite 1/Example Test)
 Expected: 1
 Actual: 2
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1, actual_string: string = 2, message: string = 1 didn't equal 2) at <...>/ztest.zeek:162
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1, actual_string: string = 2, message: string = 1 didn't equal 2) at <...>/ztest.zeek:165
 #3: ZTest::assert_equal(expected: any = 1, actual: any = 2, message: string = 1 didn't equal 2) at <...>/01_success_suppressed_with_failures.zeek:11
-#4: lambda_<11306566079413392943>() at <...>/ztest.zeek:283
+#4: lambda_<11306566079413392943>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/01_success_suppressed_with_failures.zeek:14

@@ -1,4 +1,4 @@
-# @TEST-EXEC-FAIL: zeek %INPUT &> output
+# @TEST-EXEC-FAIL: zeek -b %INPUT &> output
 # @TEST-EXEC: btest-diff output
 
 @load ztest

@@ -8,165 +8,165 @@ Assert Failed: 1 didn't equal 1 (Fail Suite 1/Assert Equal Tests)
 Expected: 1
 Actual: 2
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1, actual_string: string = 2, message: string = 1 didn't equal 1) at <...>/ztest.zeek:162
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1, actual_string: string = 2, message: string = 1 didn't equal 1) at <...>/ztest.zeek:165
 #3: ZTest::assert_equal(expected: any = 1, actual: any = 2, message: string = 1 didn't equal 1) at <...>/04_assert_fail_cases.zeek:18
-#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:283
+#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: didn't equal when should have (Fail Suite 1/Assert Equal Tests)
 Expected: 1.0
 Actual: 2.0
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1.0, actual_string: string = 2.0, message: string = didn't equal when should have) at <...>/ztest.zeek:162
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1.0, actual_string: string = 2.0, message: string = didn't equal when should have) at <...>/ztest.zeek:165
 #3: ZTest::assert_equal(expected: any = 1.0, actual: any = 2.0, message: string = didn't equal when should have) at <...>/04_assert_fail_cases.zeek:19
-#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:283
+#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: didn't equal when should have (Fail Suite 1/Assert Equal Tests)
 Expected: 1
 Actual: 2
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1, actual_string: string = 2, message: string = didn't equal when should have) at <...>/ztest.zeek:162
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1, actual_string: string = 2, message: string = didn't equal when should have) at <...>/ztest.zeek:165
 #3: ZTest::assert_equal(expected: any = 1, actual: any = 2, message: string = didn't equal when should have) at <...>/04_assert_fail_cases.zeek:20
-#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:283
+#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: didn't equal when should have (Fail Suite 1/Assert Equal Tests)
 Expected: hi
 Actual: i
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = hi, actual_string: string = i, message: string = didn't equal when should have) at <...>/ztest.zeek:162
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = hi, actual_string: string = i, message: string = didn't equal when should have) at <...>/ztest.zeek:165
 #3: ZTest::assert_equal(expected: any = hi, actual: any = i, message: string = didn't equal when should have) at <...>/04_assert_fail_cases.zeek:21
-#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:283
+#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: didn't equal when should have (Fail Suite 1/Assert Equal Tests)
 Expected: 1.2.3.4
 Actual: 1.3.3.4
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1.2.3.4, actual_string: string = 1.3.3.4, message: string = didn't equal when should have) at <...>/ztest.zeek:162
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1.2.3.4, actual_string: string = 1.3.3.4, message: string = didn't equal when should have) at <...>/ztest.zeek:165
 #3: ZTest::assert_equal(expected: any = 1.2.3.4, actual: any = 1.3.3.4, message: string = didn't equal when should have) at <...>/04_assert_fail_cases.zeek:22
-#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:283
+#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: didn't equal when should have (Fail Suite 1/Assert Equal Tests)
 Expected: 1.2.3.0/24
 Actual: 1.3.3.0/24
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1.2.3.0/24, actual_string: string = 1.3.3.0/24, message: string = didn't equal when should have) at <...>/ztest.zeek:162
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1.2.3.0/24, actual_string: string = 1.3.3.0/24, message: string = didn't equal when should have) at <...>/ztest.zeek:165
 #3: ZTest::assert_equal(expected: any = 1.2.3.0/24, actual: any = 1.3.3.0/24, message: string = didn't equal when should have) at <...>/04_assert_fail_cases.zeek:23
-#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:283
+#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: bool didn't equal (Fail Suite 1/Assert Equal Tests)
 Expected: T
 Actual: F
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = T, actual_string: string = F, message: string = bool didn't equal) at <...>/ztest.zeek:162
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = T, actual_string: string = F, message: string = bool didn't equal) at <...>/ztest.zeek:165
 #3: ZTest::assert_equal(expected: any = T, actual: any = F, message: string = bool didn't equal) at <...>/04_assert_fail_cases.zeek:24
-#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:283
+#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: Times didn't equal (Fail Suite 1/Assert Equal Tests)
 Expected: 0.0
 Actual: 1.0
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 0.0, actual_string: string = 1.0, message: string = Times didn't equal) at <...>/ztest.zeek:162
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 0.0, actual_string: string = 1.0, message: string = Times didn't equal) at <...>/ztest.zeek:165
 #3: ZTest::assert_equal(expected: any = 0.0, actual: any = 1.0, message: string = Times didn't equal) at <...>/04_assert_fail_cases.zeek:27
-#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:283
+#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: Intervals didn't equal (Fail Suite 1/Assert Equal Tests)
 Expected: 1.0 sec
 Actual: 2.0 secs
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1.0 sec, actual_string: string = 2.0 secs, message: string = Intervals didn't equal) at <...>/ztest.zeek:162
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1.0 sec, actual_string: string = 2.0 secs, message: string = Intervals didn't equal) at <...>/ztest.zeek:165
 #3: ZTest::assert_equal(expected: any = 1.0 sec, actual: any = 2.0 secs, message: string = Intervals didn't equal) at <...>/04_assert_fail_cases.zeek:28
-#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:283
+#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: Patterns didn't equal (Fail Suite 1/Assert Equal Tests)
 Expected: /^?(asdf)$?/
 Actual: /^?(sdf)$?/
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = <...>/, actual_string: string = <...>/, message: string = Patterns didn't equal) at <...>/ztest.zeek:162
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = <...>/, actual_string: string = <...>/, message: string = Patterns didn't equal) at <...>/ztest.zeek:165
 #3: ZTest::assert_equal(expected: any = <...>/, actual: any = <...>/, message: string = Patterns didn't equal) at <...>/04_assert_fail_cases.zeek:29
-#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:283
+#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: Ports didn't equal (Fail Suite 1/Assert Equal Tests)
 Expected: 53/udp
 Actual: 5/udp
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 53/udp, actual_string: string = 5/udp, message: string = Ports didn't equal) at <...>/ztest.zeek:162
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 53/udp, actual_string: string = 5/udp, message: string = Ports didn't equal) at <...>/ztest.zeek:165
 #3: ZTest::assert_equal(expected: any = 53/udp, actual: any = 5/udp, message: string = Ports didn't equal) at <...>/04_assert_fail_cases.zeek:30
-#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:283
+#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: Enums didn't equal (Fail Suite 1/Assert Equal Tests)
 Expected: TestSuite::Red
 Actual: TestSuite::Blue
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = TestSuite::Red, actual_string: string = TestSuite::Blue, message: string = Enums didn't equal) at <...>/ztest.zeek:162
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = TestSuite::Red, actual_string: string = TestSuite::Blue, message: string = Enums didn't equal) at <...>/ztest.zeek:165
 #3: ZTest::assert_equal(expected: any = TestSuite::Red, actual: any = TestSuite::Blue, message: string = Enums didn't equal) at <...>/04_assert_fail_cases.zeek:31
-#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:283
+#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: Records didn't equal (Fail Suite 1/Assert Equal Tests)
 Expected: [c=43, s=hi]
 Actual: [c=42, s=hi]
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = [c=43, s=hi], actual_string: string = [c=42, s=hi], message: string = Records didn't equal) at <...>/ztest.zeek:162
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = [c=43, s=hi], actual_string: string = [c=42, s=hi], message: string = Records didn't equal) at <...>/ztest.zeek:165
 #3: ZTest::assert_equal(expected: any = [c=43, s=hi], actual: any = [c=42, s=hi], message: string = Records didn't equal) at <...>/04_assert_fail_cases.zeek:32
-#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:283
+#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: Sets didn't equal (Fail Suite 1/Assert Equal Tests)
 Expected: {\x0a\x092,\x0a\x095,\x0a\x093,\x0a\x091\x0a}
 Actual: {\x0a\x092,\x0a\x094,\x0a\x093,\x0a\x091\x0a}
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = {\x0a\x092,\x0a\x095,\x0a\x093,\x0a\x091\x0a}, actual_string: string = {\x0a\x092,\x0a\x094,\x0a\x093,\x0a\x091\x0a}, message: string = Sets didn't equal) at <...>/ztest.zeek:162
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = {\x0a\x092,\x0a\x095,\x0a\x093,\x0a\x091\x0a}, actual_string: string = {\x0a\x092,\x0a\x094,\x0a\x093,\x0a\x091\x0a}, message: string = Sets didn't equal) at <...>/ztest.zeek:165
 #3: ZTest::assert_equal(expected: any = {\x0a\x092,\x0a\x095,\x0a\x093,\x0a\x091\x0a}, actual: any = {\x0a\x092,\x0a\x094,\x0a\x093,\x0a\x091\x0a}, message: string = Sets didn't equal) at <...>/04_assert_fail_cases.zeek:34
-#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:283
+#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: Vectors didn't equal (Fail Suite 1/Assert Equal Tests)
 Expected: [1, 1, 1, 3]
 Actual: [2, 1, 1, 2]
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = [1, 1, 1, 3], actual_string: string = [2, 1, 1, 2], message: string = Vectors didn't equal) at <...>/ztest.zeek:162
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = [1, 1, 1, 3], actual_string: string = [2, 1, 1, 2], message: string = Vectors didn't equal) at <...>/ztest.zeek:165
 #3: ZTest::assert_equal(expected: any = [1, 1, 1, 3], actual: any = [2, 1, 1, 2], message: string = Vectors didn't equal) at <...>/04_assert_fail_cases.zeek:35
-#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:283
+#4: lambda_<17094498105780890324>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Running Test: Assert Instance Of Tests
@@ -175,176 +175,176 @@ Assert Failed: count instance of (Fail Suite 1/Assert Instance Of Tests)
 Expected: count
 Actual: double
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = count, actual_string: string = double, message: string = count instance of) at <...>/ztest.zeek:183
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = count, actual_string: string = double, message: string = count instance of) at <...>/ztest.zeek:186
 #3: ZTest::assert_instance_of(expected: string = count, object: any = 1.0, message: string = count instance of) at <...>/04_assert_fail_cases.zeek:43
-#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:283
+#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: double instance of (Fail Suite 1/Assert Instance Of Tests)
 Expected: double
 Actual: count
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = double, actual_string: string = count, message: string = double instance of) at <...>/ztest.zeek:183
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = double, actual_string: string = count, message: string = double instance of) at <...>/ztest.zeek:186
 #3: ZTest::assert_instance_of(expected: string = double, object: any = 1, message: string = double instance of) at <...>/04_assert_fail_cases.zeek:44
-#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:283
+#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: int instance of (Fail Suite 1/Assert Instance Of Tests)
 Expected: int
 Actual: count
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = int, actual_string: string = count, message: string = int instance of) at <...>/ztest.zeek:183
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = int, actual_string: string = count, message: string = int instance of) at <...>/ztest.zeek:186
 #3: ZTest::assert_instance_of(expected: string = int, object: any = 1, message: string = int instance of) at <...>/04_assert_fail_cases.zeek:45
-#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:283
+#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: string instance of (Fail Suite 1/Assert Instance Of Tests)
 Expected: string
 Actual: count
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = string, actual_string: string = count, message: string = string instance of) at <...>/ztest.zeek:183
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = string, actual_string: string = count, message: string = string instance of) at <...>/ztest.zeek:186
 #3: ZTest::assert_instance_of(expected: string = string, object: any = 1, message: string = string instance of) at <...>/04_assert_fail_cases.zeek:46
-#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:283
+#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: addr instance of (Fail Suite 1/Assert Instance Of Tests)
 Expected: addr
 Actual: subnet
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = addr, actual_string: string = subnet, message: string = addr instance of) at <...>/ztest.zeek:183
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = addr, actual_string: string = subnet, message: string = addr instance of) at <...>/ztest.zeek:186
 #3: ZTest::assert_instance_of(expected: string = addr, object: any = 1.2.3.0/24, message: string = addr instance of) at <...>/04_assert_fail_cases.zeek:47
-#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:283
+#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: subnet instance of (Fail Suite 1/Assert Instance Of Tests)
 Expected: subnet
 Actual: addr
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = subnet, actual_string: string = addr, message: string = subnet instance of) at <...>/ztest.zeek:183
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = subnet, actual_string: string = addr, message: string = subnet instance of) at <...>/ztest.zeek:186
 #3: ZTest::assert_instance_of(expected: string = subnet, object: any = 1.2.3.4, message: string = subnet instance of) at <...>/04_assert_fail_cases.zeek:48
-#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:283
+#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: bool instance of (Fail Suite 1/Assert Instance Of Tests)
 Expected: bool
 Actual: count
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = bool, actual_string: string = count, message: string = bool instance of) at <...>/ztest.zeek:183
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = bool, actual_string: string = count, message: string = bool instance of) at <...>/ztest.zeek:186
 #3: ZTest::assert_instance_of(expected: string = bool, object: any = 1, message: string = bool instance of) at <...>/04_assert_fail_cases.zeek:49
-#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:283
+#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: time instance of (Fail Suite 1/Assert Instance Of Tests)
 Expected: time
 Actual: count
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = time, actual_string: string = count, message: string = time instance of) at <...>/ztest.zeek:183
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = time, actual_string: string = count, message: string = time instance of) at <...>/ztest.zeek:186
 #3: ZTest::assert_instance_of(expected: string = time, object: any = 1, message: string = time instance of) at <...>/04_assert_fail_cases.zeek:50
-#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:283
+#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: interval instance of (Fail Suite 1/Assert Instance Of Tests)
 Expected: interval
 Actual: count
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = interval, actual_string: string = count, message: string = interval instance of) at <...>/ztest.zeek:183
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = interval, actual_string: string = count, message: string = interval instance of) at <...>/ztest.zeek:186
 #3: ZTest::assert_instance_of(expected: string = interval, object: any = 1, message: string = interval instance of) at <...>/04_assert_fail_cases.zeek:51
-#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:283
+#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: pattern instance of (Fail Suite 1/Assert Instance Of Tests)
 Expected: pattern
 Actual: count
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = pattern, actual_string: string = count, message: string = pattern instance of) at <...>/ztest.zeek:183
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = pattern, actual_string: string = count, message: string = pattern instance of) at <...>/ztest.zeek:186
 #3: ZTest::assert_instance_of(expected: string = pattern, object: any = 1, message: string = pattern instance of) at <...>/04_assert_fail_cases.zeek:52
-#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:283
+#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: port instance of (Fail Suite 1/Assert Instance Of Tests)
 Expected: port
 Actual: count
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = port, actual_string: string = count, message: string = port instance of) at <...>/ztest.zeek:183
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = port, actual_string: string = count, message: string = port instance of) at <...>/ztest.zeek:186
 #3: ZTest::assert_instance_of(expected: string = port, object: any = 1, message: string = port instance of) at <...>/04_assert_fail_cases.zeek:53
-#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:283
+#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: enum instance of (Fail Suite 1/Assert Instance Of Tests)
 Expected: enum
 Actual: string
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = enum, actual_string: string = string, message: string = enum instance of) at <...>/ztest.zeek:183
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = enum, actual_string: string = string, message: string = enum instance of) at <...>/ztest.zeek:186
 #3: ZTest::assert_instance_of(expected: string = enum, object: any = hi, message: string = enum instance of) at <...>/04_assert_fail_cases.zeek:54
-#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:283
+#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: record instance of (Fail Suite 1/Assert Instance Of Tests)
 Expected: record { c:count; s:string; }
 Actual: count
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = record { c:count; s:string; }, actual_string: string = count, message: string = record instance of) at <...>/ztest.zeek:183
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = record { c:count; s:string; }, actual_string: string = count, message: string = record instance of) at <...>/ztest.zeek:186
 #3: ZTest::assert_instance_of(expected: string = record { c:count; s:string; }, object: any = 1, message: string = record instance of) at <...>/04_assert_fail_cases.zeek:55
-#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:283
+#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: table instance of (Fail Suite 1/Assert Instance Of Tests)
 Expected: table[count] of string
 Actual: count
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = table[count] of string, actual_string: string = count, message: string = table instance of) at <...>/ztest.zeek:183
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = table[count] of string, actual_string: string = count, message: string = table instance of) at <...>/ztest.zeek:186
 #3: ZTest::assert_instance_of(expected: string = table[count] of string, object: any = 1, message: string = table instance of) at <...>/04_assert_fail_cases.zeek:56
-#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:283
+#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: set instance of (Fail Suite 1/Assert Instance Of Tests)
 Expected: set[count]
 Actual: count
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = set[count], actual_string: string = count, message: string = set instance of) at <...>/ztest.zeek:183
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = set[count], actual_string: string = count, message: string = set instance of) at <...>/ztest.zeek:186
 #3: ZTest::assert_instance_of(expected: string = set[count], object: any = 1, message: string = set instance of) at <...>/04_assert_fail_cases.zeek:57
-#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:283
+#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: vector instance of (Fail Suite 1/Assert Instance Of Tests)
 Expected: vector of count
 Actual: count
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = vector of count, actual_string: string = count, message: string = vector instance of) at <...>/ztest.zeek:183
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = vector of count, actual_string: string = count, message: string = vector instance of) at <...>/ztest.zeek:186
 #3: ZTest::assert_instance_of(expected: string = vector of count, object: any = 1, message: string = vector instance of) at <...>/04_assert_fail_cases.zeek:58
-#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:283
+#4: lambda_<10567367394122872210>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Running Test: Assert Greater Than/Equal To Tests
@@ -353,99 +353,99 @@ Assert Failed: greater than double (Fail Suite 1/Assert Greater Than/Equal To Te
 Expected: 2.0 to be greater than 3.0
 Actual: Was less than or equal to
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be greater than 3.0, actual_string: string = Was less than or equal to, message: string = greater than double) at <...>/ztest.zeek:205
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be greater than 3.0, actual_string: string = Was less than or equal to, message: string = greater than double) at <...>/ztest.zeek:208
 #3: ZTest::assert_greater_than(threshold: double = 3.0, actual: double = 2.0, message: string = greater than double) at <...>/04_assert_fail_cases.zeek:67
-#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:283
+#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: greater than double (Fail Suite 1/Assert Greater Than/Equal To Tests)
 Expected: 3.0 to be greater than 3.0
 Actual: Was less than or equal to
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 3.0 to be greater than 3.0, actual_string: string = Was less than or equal to, message: string = greater than double) at <...>/ztest.zeek:205
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 3.0 to be greater than 3.0, actual_string: string = Was less than or equal to, message: string = greater than double) at <...>/ztest.zeek:208
 #3: ZTest::assert_greater_than(threshold: double = 3.0, actual: double = 3.0, message: string = greater than double) at <...>/04_assert_fail_cases.zeek:68
-#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:283
+#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: greater than or equal double (Fail Suite 1/Assert Greater Than/Equal To Tests)
 Expected: 2.0 to be greater than or equal to 3.0
 Actual: Was less than
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be greater than or equal to 3.0, actual_string: string = Was less than, message: string = greater than or equal double) at <...>/ztest.zeek:216
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be greater than or equal to 3.0, actual_string: string = Was less than, message: string = greater than or equal double) at <...>/ztest.zeek:219
 #3: ZTest::assert_greater_than_or_equal(threshold: double = 3.0, actual: double = 2.0, message: string = greater than or equal double) at <...>/04_assert_fail_cases.zeek:69
-#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:283
+#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: greater than count (Fail Suite 1/Assert Greater Than/Equal To Tests)
 Expected: 2.0 to be greater than 3.0
 Actual: Was less than or equal to
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be greater than 3.0, actual_string: string = Was less than or equal to, message: string = greater than count) at <...>/ztest.zeek:205
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be greater than 3.0, actual_string: string = Was less than or equal to, message: string = greater than count) at <...>/ztest.zeek:208
 #3: ZTest::assert_greater_than(threshold: double = 3.0, actual: double = 2.0, message: string = greater than count) at <...>/04_assert_fail_cases.zeek:71
-#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:283
+#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: greater than count (Fail Suite 1/Assert Greater Than/Equal To Tests)
 Expected: 3.0 to be greater than 3.0
 Actual: Was less than or equal to
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 3.0 to be greater than 3.0, actual_string: string = Was less than or equal to, message: string = greater than count) at <...>/ztest.zeek:205
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 3.0 to be greater than 3.0, actual_string: string = Was less than or equal to, message: string = greater than count) at <...>/ztest.zeek:208
 #3: ZTest::assert_greater_than(threshold: double = 3.0, actual: double = 3.0, message: string = greater than count) at <...>/04_assert_fail_cases.zeek:72
-#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:283
+#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: greater than or equal count (Fail Suite 1/Assert Greater Than/Equal To Tests)
 Expected: 2.0 to be greater than or equal to 3.0
 Actual: Was less than
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be greater than or equal to 3.0, actual_string: string = Was less than, message: string = greater than or equal count) at <...>/ztest.zeek:216
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be greater than or equal to 3.0, actual_string: string = Was less than, message: string = greater than or equal count) at <...>/ztest.zeek:219
 #3: ZTest::assert_greater_than_or_equal(threshold: double = 3.0, actual: double = 2.0, message: string = greater than or equal count) at <...>/04_assert_fail_cases.zeek:73
-#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:283
+#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: greater than int (Fail Suite 1/Assert Greater Than/Equal To Tests)
 Expected: 2.0 to be greater than 3.0
 Actual: Was less than or equal to
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be greater than 3.0, actual_string: string = Was less than or equal to, message: string = greater than int) at <...>/ztest.zeek:205
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be greater than 3.0, actual_string: string = Was less than or equal to, message: string = greater than int) at <...>/ztest.zeek:208
 #3: ZTest::assert_greater_than(threshold: double = 3.0, actual: double = 2.0, message: string = greater than int) at <...>/04_assert_fail_cases.zeek:75
-#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:283
+#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: greater than int (Fail Suite 1/Assert Greater Than/Equal To Tests)
 Expected: 2.0 to be greater than 2.0
 Actual: Was less than or equal to
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be greater than 2.0, actual_string: string = Was less than or equal to, message: string = greater than int) at <...>/ztest.zeek:205
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be greater than 2.0, actual_string: string = Was less than or equal to, message: string = greater than int) at <...>/ztest.zeek:208
 #3: ZTest::assert_greater_than(threshold: double = 2.0, actual: double = 2.0, message: string = greater than int) at <...>/04_assert_fail_cases.zeek:76
-#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:283
+#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: greater than or equal int (Fail Suite 1/Assert Greater Than/Equal To Tests)
 Expected: 2.0 to be greater than or equal to 3.0
 Actual: Was less than
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be greater than or equal to 3.0, actual_string: string = Was less than, message: string = greater than or equal int) at <...>/ztest.zeek:216
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be greater than or equal to 3.0, actual_string: string = Was less than, message: string = greater than or equal int) at <...>/ztest.zeek:219
 #3: ZTest::assert_greater_than_or_equal(threshold: double = 3.0, actual: double = 2.0, message: string = greater than or equal int) at <...>/04_assert_fail_cases.zeek:77
-#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:283
+#4: lambda_<6446099759528693800>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Running Test: Assert Less Than/Equal To Tests
@@ -454,99 +454,99 @@ Assert Failed: less than double (Fail Suite 1/Assert Less Than/Equal To Tests)
 Expected: 2.0 to be less than 1.0
 Actual: Was greater than or equal to
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be less than 1.0, actual_string: string = Was greater than or equal to, message: string = less than double) at <...>/ztest.zeek:227
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be less than 1.0, actual_string: string = Was greater than or equal to, message: string = less than double) at <...>/ztest.zeek:230
 #3: ZTest::assert_less_than(threshold: double = 1.0, actual: double = 2.0, message: string = less than double) at <...>/04_assert_fail_cases.zeek:81
-#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:283
+#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: less than double (Fail Suite 1/Assert Less Than/Equal To Tests)
 Expected: 2.0 to be less than 2.0
 Actual: Was greater than or equal to
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be less than 2.0, actual_string: string = Was greater than or equal to, message: string = less than double) at <...>/ztest.zeek:227
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be less than 2.0, actual_string: string = Was greater than or equal to, message: string = less than double) at <...>/ztest.zeek:230
 #3: ZTest::assert_less_than(threshold: double = 2.0, actual: double = 2.0, message: string = less than double) at <...>/04_assert_fail_cases.zeek:82
-#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:283
+#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: less than or equal double (Fail Suite 1/Assert Less Than/Equal To Tests)
 Expected: 2.0 to be less than or equal to 1.0
 Actual: Was greater than
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be less than or equal to 1.0, actual_string: string = Was greater than, message: string = less than or equal double) at <...>/ztest.zeek:238
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be less than or equal to 1.0, actual_string: string = Was greater than, message: string = less than or equal double) at <...>/ztest.zeek:241
 #3: ZTest::assert_less_than_or_equal(threshold: double = 1.0, actual: double = 2.0, message: string = less than or equal double) at <...>/04_assert_fail_cases.zeek:83
-#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:283
+#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: less than count (Fail Suite 1/Assert Less Than/Equal To Tests)
 Expected: 2.0 to be less than 1.0
 Actual: Was greater than or equal to
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be less than 1.0, actual_string: string = Was greater than or equal to, message: string = less than count) at <...>/ztest.zeek:227
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be less than 1.0, actual_string: string = Was greater than or equal to, message: string = less than count) at <...>/ztest.zeek:230
 #3: ZTest::assert_less_than(threshold: double = 1.0, actual: double = 2.0, message: string = less than count) at <...>/04_assert_fail_cases.zeek:85
-#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:283
+#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: less than count (Fail Suite 1/Assert Less Than/Equal To Tests)
 Expected: 1.0 to be less than 1.0
 Actual: Was greater than or equal to
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1.0 to be less than 1.0, actual_string: string = Was greater than or equal to, message: string = less than count) at <...>/ztest.zeek:227
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1.0 to be less than 1.0, actual_string: string = Was greater than or equal to, message: string = less than count) at <...>/ztest.zeek:230
 #3: ZTest::assert_less_than(threshold: double = 1.0, actual: double = 1.0, message: string = less than count) at <...>/04_assert_fail_cases.zeek:86
-#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:283
+#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: less than or equal count (Fail Suite 1/Assert Less Than/Equal To Tests)
 Expected: 2.0 to be less than or equal to 1.0
 Actual: Was greater than
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be less than or equal to 1.0, actual_string: string = Was greater than, message: string = less than or equal count) at <...>/ztest.zeek:238
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be less than or equal to 1.0, actual_string: string = Was greater than, message: string = less than or equal count) at <...>/ztest.zeek:241
 #3: ZTest::assert_less_than_or_equal(threshold: double = 1.0, actual: double = 2.0, message: string = less than or equal count) at <...>/04_assert_fail_cases.zeek:87
-#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:283
+#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: less than int (Fail Suite 1/Assert Less Than/Equal To Tests)
 Expected: 2.0 to be less than 1.0
 Actual: Was greater than or equal to
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be less than 1.0, actual_string: string = Was greater than or equal to, message: string = less than int) at <...>/ztest.zeek:227
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be less than 1.0, actual_string: string = Was greater than or equal to, message: string = less than int) at <...>/ztest.zeek:230
 #3: ZTest::assert_less_than(threshold: double = 1.0, actual: double = 2.0, message: string = less than int) at <...>/04_assert_fail_cases.zeek:89
-#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:283
+#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: less than int (Fail Suite 1/Assert Less Than/Equal To Tests)
 Expected: 2.0 to be less than 2.0
 Actual: Was greater than or equal to
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be less than 2.0, actual_string: string = Was greater than or equal to, message: string = less than int) at <...>/ztest.zeek:227
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be less than 2.0, actual_string: string = Was greater than or equal to, message: string = less than int) at <...>/ztest.zeek:230
 #3: ZTest::assert_less_than(threshold: double = 2.0, actual: double = 2.0, message: string = less than int) at <...>/04_assert_fail_cases.zeek:90
-#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:283
+#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: less than or equal int (Fail Suite 1/Assert Less Than/Equal To Tests)
 Expected: 2.0 to be less than or equal to 1.0
 Actual: Was greater than
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be less than or equal to 1.0, actual_string: string = Was greater than, message: string = less than or equal int) at <...>/ztest.zeek:238
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.0 to be less than or equal to 1.0, actual_string: string = Was greater than, message: string = less than or equal int) at <...>/ztest.zeek:241
 #3: ZTest::assert_less_than_or_equal(threshold: double = 1.0, actual: double = 2.0, message: string = less than or equal int) at <...>/04_assert_fail_cases.zeek:91
-#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:283
+#4: lambda_<16458371147843024017>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Running Test: Assert Tests
@@ -555,11 +555,11 @@ Assert Failed: true assertion didn't work (Fail Suite 1/Assert Tests)
 Expected: condition to be true
 Actual: condition was false
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = condition to be true, actual_string: string = condition was false, message: string = true assertion didn't work) at <...>/ztest.zeek:171
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = condition to be true, actual_string: string = condition was false, message: string = true assertion didn't work) at <...>/ztest.zeek:174
 #3: ZTest::assert(condition: bool = F, message: string = true assertion didn't work) at <...>/04_assert_fail_cases.zeek:39
-#4: lambda_<4733940275192468407>() at <...>/ztest.zeek:283
+#4: lambda_<4733940275192468407>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Running Test: Assert in delta tests
@@ -568,66 +568,66 @@ Assert Failed: double at left edge of delta (Fail Suite 1/Assert in delta tests)
 Expected: 2.9 to be within 0.100000 of 3.1
 Actual: Actual delta of 0.200000
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.9 to be within 0.100000 of 3.1, actual_string: string = Actual delta of 0.200000, message: string = double at left edge of delta) at <...>/ztest.zeek:253
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 2.9 to be within 0.100000 of 3.1, actual_string: string = Actual delta of 0.200000, message: string = double at left edge of delta) at <...>/ztest.zeek:256
 #3: ZTest::assert_in_delta(expected: double = 3.1, actual: double = 2.9, delta: double = 0.1, message: string = double at left edge of delta) at <...>/04_assert_fail_cases.zeek:95
-#4: lambda_<306072411667537136>() at <...>/ztest.zeek:283
+#4: lambda_<306072411667537136>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: double at right edge of delta (Fail Suite 1/Assert in delta tests)
 Expected: 3.1 to be within 0.100000 of 2.9
 Actual: Actual delta of 0.200000
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 3.1 to be within 0.100000 of 2.9, actual_string: string = Actual delta of 0.200000, message: string = double at right edge of delta) at <...>/ztest.zeek:253
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 3.1 to be within 0.100000 of 2.9, actual_string: string = Actual delta of 0.200000, message: string = double at right edge of delta) at <...>/ztest.zeek:256
 #3: ZTest::assert_in_delta(expected: double = 2.9, actual: double = 3.1, delta: double = 0.1, message: string = double at right edge of delta) at <...>/04_assert_fail_cases.zeek:96
-#4: lambda_<306072411667537136>() at <...>/ztest.zeek:283
+#4: lambda_<306072411667537136>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: count at right edge of delta (Fail Suite 1/Assert in delta tests)
 Expected: 5.0 to be within 1.000000 of 3.0
 Actual: Actual delta of 2.000000
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 5.0 to be within 1.000000 of 3.0, actual_string: string = Actual delta of 2.000000, message: string = count at right edge of delta) at <...>/ztest.zeek:253
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 5.0 to be within 1.000000 of 3.0, actual_string: string = Actual delta of 2.000000, message: string = count at right edge of delta) at <...>/ztest.zeek:256
 #3: ZTest::assert_in_delta(expected: double = 3.0, actual: double = 5.0, delta: double = 1.0, message: string = count at right edge of delta) at <...>/04_assert_fail_cases.zeek:98
-#4: lambda_<306072411667537136>() at <...>/ztest.zeek:283
+#4: lambda_<306072411667537136>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: count at left edge of delta (Fail Suite 1/Assert in delta tests)
 Expected: 1.0 to be within 1.000000 of 3.0
 Actual: Actual delta of 2.000000
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1.0 to be within 1.000000 of 3.0, actual_string: string = Actual delta of 2.000000, message: string = count at left edge of delta) at <...>/ztest.zeek:253
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1.0 to be within 1.000000 of 3.0, actual_string: string = Actual delta of 2.000000, message: string = count at left edge of delta) at <...>/ztest.zeek:256
 #3: ZTest::assert_in_delta(expected: double = 3.0, actual: double = 1.0, delta: double = 1.0, message: string = count at left edge of delta) at <...>/04_assert_fail_cases.zeek:99
-#4: lambda_<306072411667537136>() at <...>/ztest.zeek:283
+#4: lambda_<306072411667537136>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: int at right edge of delta (Fail Suite 1/Assert in delta tests)
 Expected: 5.0 to be within 1.000000 of 3.0
 Actual: Actual delta of 2.000000
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 5.0 to be within 1.000000 of 3.0, actual_string: string = Actual delta of 2.000000, message: string = int at right edge of delta) at <...>/ztest.zeek:253
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 5.0 to be within 1.000000 of 3.0, actual_string: string = Actual delta of 2.000000, message: string = int at right edge of delta) at <...>/ztest.zeek:256
 #3: ZTest::assert_in_delta(expected: double = 3.0, actual: double = 5.0, delta: double = 1.0, message: string = int at right edge of delta) at <...>/04_assert_fail_cases.zeek:101
-#4: lambda_<306072411667537136>() at <...>/ztest.zeek:283
+#4: lambda_<306072411667537136>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: int at left edge of delta (Fail Suite 1/Assert in delta tests)
 Expected: 1.0 to be within 1.000000 of 3.0
 Actual: Actual delta of 2.000000
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1.0 to be within 1.000000 of 3.0, actual_string: string = Actual delta of 2.000000, message: string = int at left edge of delta) at <...>/ztest.zeek:253
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 1.0 to be within 1.000000 of 3.0, actual_string: string = Actual delta of 2.000000, message: string = int at left edge of delta) at <...>/ztest.zeek:256
 #3: ZTest::assert_in_delta(expected: double = 3.0, actual: double = 1.0, delta: double = 1.0, message: string = int at left edge of delta) at <...>/04_assert_fail_cases.zeek:102
-#4: lambda_<306072411667537136>() at <...>/ztest.zeek:283
+#4: lambda_<306072411667537136>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Running Test: Assert Matches Tests
@@ -636,22 +636,22 @@ Assert Failed: Didn't match when whole string (Fail Suite 1/Assert Matches Tests
 Expected: 'regex' to match pattern /^?(reex)$?/
 Actual: Didn't match pattern
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 'regex' to match pattern <...>/, actual_string: string = Didn't match pattern, message: string = Didn't match when whole string) at <...>/ztest.zeek:194
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 'regex' to match pattern <...>/, actual_string: string = Didn't match pattern, message: string = Didn't match when whole string) at <...>/ztest.zeek:197
 #3: ZTest::assert_matches(regex: pattern = <...>/, str: string = regex, message: string = Didn't match when whole string) at <...>/04_assert_fail_cases.zeek:62
-#4: lambda_<11479045852154092696>() at <...>/ztest.zeek:283
+#4: lambda_<11479045852154092696>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Assert Failed: Didn't match partial string (Fail Suite 1/Assert Matches Tests)
 Expected: 'words around regex are here' to match pattern /^?(regex hi)$?/
 Actual: Didn't match pattern
 Backtrace: 
-#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:89
-#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:139
-#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 'words around regex are here' to match pattern /^?(regex hi)$?/, actual_string: string = Didn't match pattern, message: string = Didn't match partial string) at <...>/ztest.zeek:194
+#0: print_backtrace(show_args: bool = T, one_line: bool = F, one_line_delim: string = |, skip: count = 1, to_file: file of string = file "<...>/stdout" of string) at <...>/ztest.zeek:92
+#1: ZTest::print_failure_backtrace() at <...>/ztest.zeek:142
+#2: ZTest::mark_result(succeeded: bool = F, expected_string: string = 'words around regex are here' to match pattern /^?(regex hi)$?/, actual_string: string = Didn't match pattern, message: string = Didn't match partial string) at <...>/ztest.zeek:197
 #3: ZTest::assert_matches(regex: pattern = /^?(regex hi)$?/, str: string = words around regex are here, message: string = Didn't match partial string) at <...>/04_assert_fail_cases.zeek:63
-#4: lambda_<11479045852154092696>() at <...>/ztest.zeek:283
+#4: lambda_<11479045852154092696>() at <...>/ztest.zeek:286
 #5: ZTest::run_tests() at <...>/04_assert_fail_cases.zeek:105
 
 Total Assertions: 59

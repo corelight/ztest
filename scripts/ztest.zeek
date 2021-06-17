@@ -1,3 +1,6 @@
+@load base/misc/version
+@load base/utils/backtrace
+
 ## ZTest is a basic unit testing framework for Zeek scripts
 ## It is largely based on Ruby's MiniTest framework (https://github.com/seattlerb/minitest)
 ## The expected use case is to combine this with BTest to create rich unit tests that provide detailed output and make it easier to understand what failed
