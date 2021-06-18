@@ -1,4 +1,7 @@
-@load ../../scripts/ztest.zeek
+# @TEST-EXEC-FAIL: zeek %INPUT &> output
+# @TEST-EXEC: btest-diff output
+
+@load ztest
 
 ZTest::hook_exit();
 

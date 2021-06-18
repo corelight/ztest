@@ -1,4 +1,7 @@
-@load ../../scripts/ztest.zeek
+# @TEST-EXEC: zeek %INPUT &> output
+# @TEST-EXEC: btest-diff output
+
+@load ztest
 
 module TestSuite;
 export {
@@ -19,18 +22,15 @@ ZTest::test("Assert Equal Tests", function() {
     ZTest::assert_equal(1.2.3.4, 1.3.3.4, "didn't equal when should have");
     ZTest::assert_equal(1.2.3.4/24, 1.3.3.4/24, "didn't equal when should have");
     ZTest::assert_equal(T, F, "bool didn't equal");
-    local t = current_time();
-    local t2 = current_time();
-    while (t2 == t) {
-        t2 = current_time();
-    }
+    const t = double_to_time(0.);
+    const t2 = double_to_time(1.);
     ZTest::assert_equal(t, t2, "Times didn't equal");
     ZTest::assert_equal(1sec, 2sec, "Intervals didn't equal");
     ZTest::assert_equal(/asdf/, /sdf/, "Patterns didn't equal");
     ZTest::assert_equal(53/udp, 5/udp, "Ports didn't equal");
     ZTest::assert_equal(Red, Blue, "Enums didn't equal");
     ZTest::assert_equal(MyRecordType($c=43, $s="hi"), MyRecordType($s="hi", $c=42), "Records didn't equal");
-    ZTest::assert_equal(table([11] = "seleven", [12] = "twelve"), table([12] = "twelve", [11] = "eleven"), "Tables didn't equal");
+    ZTest::assert_equal(table([11] = "eleven", [12] = "twelve"), table([12] = "twelve", [11] = "eleven"), "Tables didn't equal");
     ZTest::assert_equal(set(1, 2, 3, 5), set(4, 3, 2, 1), "Sets didn't equal");
     ZTest::assert_equal(vector(1, 1, 1, 3), vector(2, 1, 1, 2), "Vectors didn't equal");
 });

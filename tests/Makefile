@@ -1,3 +1,4 @@
+all: test
 
 test:
-	@ruby test_ztest.rb
+	@btest -d -j

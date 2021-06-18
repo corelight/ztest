@@ -1,4 +1,7 @@
-@load ../../scripts/ztest.zeek
+# @TEST-EXEC: zeek %INPUT &> output
+# @TEST-EXEC: btest-diff output
+
+@load ztest
 
 module TestSuite;
 export {
