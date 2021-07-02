@@ -1,4 +1,7 @@
-@load ../../scripts/ztest.zeek
+# @TEST-EXEC: zeek -b %INPUT &> output
+# @TEST-EXEC: btest-diff output
+
+@load ztest
 
 ZTest::test_suite("Suite 1");
 

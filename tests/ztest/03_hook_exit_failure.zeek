@@ -1,6 +1,9 @@
-@load ../../scripts/ztest.zeek
+# @TEST-EXEC-FAIL: zeek -b %INPUT &> output
+# @TEST-EXEC: btest-diff output
 
-ZTest::suppress_success_output();
+@load ztest
+
+ZTest::hook_exit();
 
 ZTest::test_suite("Suite 1");
 

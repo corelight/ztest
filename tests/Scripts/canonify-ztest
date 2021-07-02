@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+
+# Get us "modern" regexps with sed.
+if [ "$(uname)" = "Linux" ]; then # Assume GNU sed on Linux.
+    sed="sed -r"
+elif [ "$(uname)" = "Darwin" ]; then # Assume BSD sed on Darwin.
+    sed="sed -E"
+else
+    >&2 echo "Could not determine 'sed' flavor"
+    exit 1
+fi
+
+# Replace absolute paths with the basename.
+${sed} 's#/+#/#g' | \
+${sed} 's#/([^     :/]{1,}/){1,}([^        :/]{1,})#<...>/\2#g'
